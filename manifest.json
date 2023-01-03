@@ -1,0 +1,79 @@
+{
+  "renderer/_default.page.client.css": {
+    "file": "assets/_default.page.client.dad88554.css",
+    "src": "renderer/_default.page.client.css"
+  },
+  "pages/about.page.mdx": {
+    "file": "assets/pages/about.page.3b97ec57.js",
+    "src": "pages/about.page.mdx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-0e184ced.js"
+    ]
+  },
+  "_chunk-0e184ced.js": {
+    "file": "assets/chunk-0e184ced.js"
+  },
+  "pages/index.page.mdx": {
+    "file": "assets/pages/index.page.30c97c79.js",
+    "src": "pages/index.page.mdx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-0e184ced.js"
+    ]
+  },
+  "pages/contact.page.mdx": {
+    "file": "assets/pages/contact.page.8681b9ab.js",
+    "src": "pages/contact.page.mdx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-0e184ced.js"
+    ]
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "file": "assets/entry-client-routing.0f0d5efe.js",
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-47df6c76.js"
+    ],
+    "dynamicImports": [
+      "pages/about.page.mdx",
+      "pages/contact.page.mdx",
+      "pages/index.page.mdx",
+      "renderer/_default.page.client.jsx"
+    ]
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "file": "assets/entry-server-routing.9b8791a7.js",
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-47df6c76.js"
+    ],
+    "dynamicImports": [
+      "pages/about.page.mdx",
+      "pages/contact.page.mdx",
+      "pages/index.page.mdx",
+      "renderer/_default.page.client.jsx"
+    ]
+  },
+  "_chunk-47df6c76.js": {
+    "file": "assets/chunk-47df6c76.js"
+  },
+  "renderer/_default.page.client.jsx": {
+    "file": "assets/renderer/_default.page.client.1b4041bd.js",
+    "src": "renderer/_default.page.client.jsx",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-0e184ced.js"
+    ],
+    "css": [
+      "assets/_default.page.client.dad88554.css"
+    ]
+  }
+}
